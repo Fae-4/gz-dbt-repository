@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: gz_raw_data
+    description: Raw data source containing sales, product, and shipping information.
+    tables:
+      - name: sales
+        identifier: raw_gz_sales
+        description: Raw sales data with transaction details such as product, revenue, and quantity.
+      - name: product
+        identifier: raw_gz_product
+        description: Raw product data, including product ID and purchase price.
+      - name: ship
+        identifier: raw_gz_ship
+        description: Raw shipping data for orders, including shipping fees, logistics cost, and total shipping cost.
