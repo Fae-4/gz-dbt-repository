@@ -23,7 +23,7 @@
 
        - name: product
          identifier: raw_gz_product
-         description: produst of Greenweez
+         description: product of Greenweez
          columns:
            - name: products_id
              description: Primary key
@@ -41,4 +41,4 @@
            - name: log_cost
              description: the cost of preparing the parcel in the distribution centre/warehouse
            - name: ship_cost
-             description: shipping cost paid by Greenweez to the carrier/logistics provider
+             description: shipping cost paid by Greenweez to the carrier/logistics provider     
